@@ -21,5 +21,22 @@
 
   <script>
     //write code here
+   function increase() {  
+    let element = document.getElementById('number');
+    let invalue = element.innerHTML;
+
+    ++invalue;
+    console.log(invalue);
+    document.getElementById('number').innerHTML = invalue;
+   }
+
+   function decrease() {
+   let element = document.getElementById('number');
+   let devalue = element.innerHTML;
+
+   --devalue;
+   console.log(devalue);
+   document.getElementById('number').innerHTML = devalue;
+  }
   </script>
 </html>
